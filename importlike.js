@@ -1,0 +1,10 @@
+"use strict";
+// import { LikesComponet } from "./LikeComponent";
+Object.defineProperty(exports, "__esModule", { value: true });
+// let component = new LikesComponet(10,true);
+// component.onclick();
+// console.log(`likescount : ${component.likescount} isSelected :${component.isSelected}`);
+const LikeComponent_1 = require("./LikeComponent");
+let component = new LikeComponent_1.LikesComponet(5, true);
+component.onclick();
+console.log(`likescount : ${component.likecount} isSelected :${component.iselected}`);
